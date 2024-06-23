@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        nav {
+            background-color: #020b1f;
+            color: white;
+            padding: 1em;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            margin: 0 1em;
+            text-decoration: none;
+        }
+        main {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            padding: 2em;
+            background-color: rgb(221, 225, 240);
+        }
+        .product {
+            background-color: #f9f9f9;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            margin: 1em;
+            padding: 1em;
+            width: calc(25% - 2em);
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            text-align: center;
+            height: 500px;
+            width: 500px;
+        }
+        .product img {
+            /* max-width: 100%; */
+            height: 400px;
+            width: 400px;
+            border-radius: 8px;
+        }
+        .product h2 {
+            font-size: 1.2em;
+            margin: 0.5em 0;
+        }
+        .product a {
+            display: inline-block;
+            margin-top: 1em;
+            padding: 0.5em 1em;
+            background-color: #020b1f;
+            color: white;
+            text-decoration: none;
+            border-radius: 4px;
+        }
+        footer {
+            background-color: #020b1f;
+            color: white;
+            padding: 1em;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">Products</a>
+        <a href="#">About</a>
+        <a href="#">Contact</a>
+    </nav>
+    <main>
+        <div class="product">
+            <img src="https://i.pinimg.com/564x/bf/74/d5/bf74d5d27c054c4aedd8c6492b279379.jpg" alt="Product 1">
+            <h2>Cosmetics</h2>
+            <a href="/products">View All</a>
+        </div>
+        <div class="product">
+            <img src="https://i.pinimg.com/736x/ef/24/b4/ef24b41d060048cd59c3609f1f354803.jpg" alt="Product 2">
+            <h2>Furnitures</h2>
+            <a href="/products">View All</a>
+        </div>
+        <div class="product">
+            <img src="https://i.pinimg.com/564x/90/76/ff/9076ffe25767c5003290da18ff86b26b.jpg" alt="Product 3">
+            <h2>Food</h2>
+            <a href="/products">View All</a>
+        </div>
+        <div class="product">
+            <img src="https://i.pinimg.com/564x/01/c4/15/01c4158c5b82cac63e497a2d4c8d498d.jpg" alt="Product 4">
+            <h2>Electronics</h2>
+            <a href="/products">View All</a>
+        </div>
+    </main>
+    <footer>
+        &copy; Sonali | 2024 All rights reserved.
+    </footer>
+</body>
+</html>

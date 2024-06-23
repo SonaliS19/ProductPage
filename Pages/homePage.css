@@ -1,0 +1,32 @@
+*{
+  margin: 0;
+  padding: 0;
+  color: white;
+ 
+}
+body nav{
+  padding: 24px;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  gap: 15px;
+  
+}
+nav{
+ 
+  text-decoration: none;
+  height: 10vh;
+  background-color: rgb(17, 17, 47);
+  
+}
+.main{
+  height: 70vh;
+  background-color: rgb(161, 161, 217);
+}
+
+footer{
+  
+  height: 20vh;
+  background-color: rgb(17, 17, 47);
+}
+
